@@ -2,7 +2,12 @@
     background-color: brown;
 }
 
+.Experience {
+    background-color: lightblue;
+}
+
 .Introduction {
+    font-size: larger;
     padding-left: 2em;
     padding-right: 2em;
 }

@@ -3,11 +3,12 @@ import React from "react";
 import './Home.css';
 
 function Introduction() {
-    let intro_text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    let intro_text = "I am an aspiring Engineering Science Robotics students at the University of Toronto. My main interest consists of; robotics, machine learning, and software development. I am currently looking for a PEY Co-op/internship for the 2025-2026 year. I have yet to have a working experience in either of these fields and am eager to learn more to grow and develop my skills further.";
+
     return (
         <div className = 'Introduction'>
-        <h1>Introduction Page</h1>
-        <p>{intro_text} {intro_text} {intro_text} {intro_text}</p>
+        <h1>Eishi (Casey) Takahashi</h1>
+        <p>{intro_text}</p>
         </div>
     );
     }

@@ -6,7 +6,7 @@ import viteLogo from '/src/assets/vite.svg'
 
 import Introduction from './Introduction';
 import Projects from './Projects';
-import Playground from './Playground';
+import Experience from './Experience';
 
 import './Home.css';
 
@@ -17,7 +17,7 @@ function Home() {
         <>
             <Introduction />
             <Projects />
-            <Playground />
+            <Experience />
 
         </>
     )
