@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useImperativeHandle, forwardRef } from 'react
 import * as THREE from 'three';
 import { GPUComputationRenderer } from 'three/examples/jsm/misc/GPUComputationRenderer';
 
+
 const ThreeBackground = forwardRef((props, ref) => {
   const mountRef = useRef(null);
   const dtPositionRef = useRef(null);
