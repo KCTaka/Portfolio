@@ -1,9 +1,16 @@
 .Project {
-    background-color: brown;
+    background-color: #7A9E7E;
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 2em; /* Add padding instead for internal spacing */
 }
 
 .Experience {
-    background-color: lightblue;
+    background-color: #B3EFB2;
+    margin-top: 0; /* Remove top margin */
+    padding-top: 2em; /* Add padding instead for internal spacing */
+}
+.Experience h1 {
+    color: #31493C;
 }
 
 .Introduction {
@@ -15,7 +22,6 @@
 .card-container {
     display: flex;
     overflow-x: auto;
-    padding: 20px;
   }
 
 .card-container::-webkit-scrollbar {

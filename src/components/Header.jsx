@@ -2,18 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
-// import Dropdown from './Dropdown';
-
-function Header() {
+function Header({ onResetParticles }) {
   return (
     <header className="sticky-header">
-      <nav>
-        <ul className="hor-list">
-          <li><Link to="/Portfolio">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
+      <div className="header-content">
+        <nav className="nav-container">
+          <ul className="hor-list">
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+          </ul>
+        </nav>
+        <button className="header-button" onClick={onResetParticles}>
+          Reset Particles
+        </button>
+      </div>
     </header>
   );
 }

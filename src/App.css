@@ -17,10 +17,44 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative; /* Add this */
+}
+
 .Pages {
-  justify-content: center;
-  gap: 1em;
-  padding: 0em;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 3; /* Lower than the background */
+}
+
+/* Ensure footer is behind the background */
+footer {
+  position: relative;
+  z-index: 3;
+}
+
+/* Make the ThreeBackground above header/footer */
+.ThreeBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Keep text above the ThreeBackground */
+.content {
+  position: relative;
+  z-index: 1;
 }
 
 @keyframes logo-spin {

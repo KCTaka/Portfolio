@@ -11,8 +11,6 @@ import Experience from './Experience';
 import './Home.css';
 
 function Home() {
-    const [count, setCount] = useState(0)
-
     return (
         <>
             <Introduction />

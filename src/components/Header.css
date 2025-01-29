@@ -1,14 +1,41 @@
 .sticky-header {
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: #31493C;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1000; /* Ensure it stays above other content */
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+.nav-container {
+  width: 40%;
+}
+
 .hor-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.header-button {
+  padding: 8px 16px;
+  background-color: #4A7856;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: #3A5F44;
 }
