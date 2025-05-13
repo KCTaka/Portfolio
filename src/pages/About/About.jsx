@@ -14,6 +14,7 @@ function About() {
         <li> Include a webapp that enables me to list/organize things I'd wanna do on different projects </li>
         <li> Use different texture on highlighted words for visual clarity </li>
         <li> Allow the website to be accessed from https://kctaka.github.io with or without the /Project path</li>
+        <li> Add progress bar and how I am doing in each project in progress </li>
       </ul>
     </div>
   );

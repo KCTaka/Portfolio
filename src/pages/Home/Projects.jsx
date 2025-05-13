@@ -15,7 +15,7 @@ const cards = [
         content: "This project implements a reinforcement learning technique, Deep Q-Network (DQN), to play the game of Snake. The code is based on the original DQN paper by DeepMind and the Snake game is implemented using Pygame. Users can train the model with alterable hyperparameters, model architecture, and game settings. "
     },
     {
-        title: "Kalman Filtering for Virtual Remote Control Car",
+        title: "Kalman and Particle Filtering for Virtual Remote Control Car",
         content: "This project uses PyGame to simulate a car controlled by keyboard inputs and implements a Kalman filter to estimate the car's position. The project is mainly for educational purposes to understand the Kalman filter and its implementation in a simple scenario."
     },
     {

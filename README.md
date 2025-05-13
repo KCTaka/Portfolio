@@ -1,12 +1,6 @@
-# React + Vite
+# React + Vite Portfolio Page
+This is the old portfolio page I used to quickly make. Now it should redirect it to the new website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-Colors
-#e8f1f2, #b3efb2, #7a9e7e, #31493c, #001a23
+## What I learned
+- Modularized website making
+- Use of react and javascript
